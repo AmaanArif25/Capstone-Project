@@ -36,8 +36,6 @@ To build a dynamic pricing model for each parking space that:
 
 ## 🧠 Project Architecture
 
-## 🧠 Project Architecture
-
 ```mermaid
 graph TD
     A[CSV Dataset] --> B[Preprocessing with Pandas]
