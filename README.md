@@ -40,14 +40,13 @@ To build a dynamic pricing model for each parking space that:
 
 ```mermaid
 graph TD
-    A[CSV Dataset (Historical Data)] --> B[Preprocessing with Pandas]
+    A[CSV Dataset] --> B[Preprocessing with Pandas]
     B --> C1[Model 1: Linear Pricing]
     B --> C2[Model 2: Demand-Based Pricing]
-    B --> C3[Model 3: Competitive Pricing (Optional)]
+    B --> C3[Model 3: Competitive Pricing]
     C1 --> D[Real-Time Simulation with Pathway]
     C2 --> D
     C3 --> D
     D --> E[Real-Time Pricing Output]
     E --> F[Visualization with Bokeh]
-    C3 --> G[Rerouting Suggestions (Optional)]
 ```
