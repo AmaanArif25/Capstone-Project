@@ -50,3 +50,4 @@ graph TD
     D --> E[Real-Time Pricing Output]
     E --> F[Visualization with Bokeh]
     C3 --> G[Rerouting Suggestions (Optional)]
+```
